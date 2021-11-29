@@ -224,6 +224,29 @@ android_app_import {
 }
 
 android_app_import {
+	name: "OnePlusCamera",
+	owner: "oneplus",
+	apk: "proprietary/priv-app/OnePlusCamera/OnePlusCamera.apk",
+	overrides: ["Snap", "Camera2"],
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "OnePlusCameraService",
+	owner: "oneplus",
+	apk: "proprietary/priv-app/OnePlusCameraService/OnePlusCameraService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "CACertService",
 	owner: "oneplus",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
