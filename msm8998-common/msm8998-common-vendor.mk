@@ -878,8 +878,6 @@ PRODUCT_PACKAGES += \
     libantradio \
     SoterService \
     IFAAService \
-    OnePlusCamera \
-    OnePlusCameraService \
     CACertService \
     CneApp \
     IWlanService \
